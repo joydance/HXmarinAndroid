@@ -1,0 +1,16 @@
+-cp src
+-D analyzer-optimize
+-main Main
+--cs out/cs
+--macro allowPackage("java")
+--net-lib libs/Mono.Android.dll
+--net-lib libs/Java.Interop.dll
+--net-lib /usr/local/lib/haxe/lib/hxcs/3,4,0/netlib/net-40/mscorlib.dll
+
+#--net-lib /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.dll
+#--net-lib /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.Core.dll
+#--net-lib /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/System.Xml.dll
+#--net-lib /Library/Frameworks/Xamarin.Android.framework/Versions/10.0.3.0/lib/xamarin.android/xbuild-frameworks/MonoAndroid/v1.0/Java.Interop.dll
+#--net-lib /Library/Frameworks/Xamarin.Android.framework/Versions/10.0.3.0/lib/xamarin.android/xbuild-frameworks/MonoAndroid/v1.0/Microsoft.CSharp.dll
+#--net-lib /Library/Frameworks/Xamarin.Android.framework/Versions/10.0.3.0/lib/xamarin.android/xbuild-frameworks/MonoAndroid/v1.0/Mono.CSharp.dll
+#--net-lib /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/mscorlib.dll
